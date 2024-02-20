@@ -24,7 +24,7 @@ To use QueueClient in your Python code, import it as follows:
 
 
 ```python
-from queue_client import QueueClient
+from etudataproc import QueueClient
 ```
 ### Initializing the QueueClient
 
@@ -74,7 +74,7 @@ If authentication or token-related errors occur, QueueClient raises an Exception
 Here's a simple example demonstrating the usage of QueueClient:
 
 ```python
-from queue_client import QueueClient
+from etudataproc import QueueClient
 
 queue_client = QueueClient(base_url="https://your-queue-service-url.com")
 queue_client.authenticate(username="your-username", password="your-password")
