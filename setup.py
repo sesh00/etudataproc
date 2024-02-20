@@ -1,7 +1,7 @@
 from io import open
 from setuptools import setup
 
-version = '0.1.0'
+version = '0.1.1'
 
 with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
@@ -15,7 +15,6 @@ setup(
 
     description=(
         u'Python library for interacting with a Yandex DataProc Queue'
-        u'Yandex (DataProc Queue API wrapper)'
     ),
     long_description=long_description,
     long_description_content_type='text/markdown',
